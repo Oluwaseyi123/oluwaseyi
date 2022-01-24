@@ -12,12 +12,9 @@
           alt=""
           class="cover"
         />
-        
+
         <video autoplay loop>
-          <source
-            :src="vid"
-            type="video/mp4"
-          />
+          <source :src="vid" type="video/mp4" />
         </video>
       </div>
       <div class="part bottom">
@@ -38,7 +35,7 @@
 
 <script>
 export default {
-    props: ['vid']
+  props: ["vid"],
 };
 </script>
 
@@ -71,12 +68,12 @@ export default {
 }
 
 .mockup .part.top {
-  transform: translate3d(0, 0, 0) rotateX(-90deg);
+  // transform: translate3d(0, 0, 0) rotateX(-90deg);
 }
 
-.mockup:hover .part.top {
-  transform: translate3d(0, 0, 0) rotateX(0deg);
-}
+// .mockup:hover .part.top {
+//   transform: translate3d(0, 0, 0) rotateX(0deg);
+// }
 
 .mockup .part {
   display: inline-block;
@@ -130,10 +127,17 @@ export default {
   transform-origin: 50% 0;
   transform: translate3d(0, 0, 0) rotateX(90deg);
 }
-@media screen and (min-width: 765px){
-    .container{
-        margin-right: 2em;
-        margin-left: 2em;
-    }
+@media screen and (min-width: 765px) {
+  .container {
+    margin-right: 2em;
+    margin-left: 2em;
+  }
+  .mockup .part.top {
+    transform: translate3d(0, 0, 0) rotateX(-90deg);
+  }
+
+  .mockup:hover .part.top {
+    transform: translate3d(0, 0, 0) rotateX(0deg);
+  }
 }
 </style>
