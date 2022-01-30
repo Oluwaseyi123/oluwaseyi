@@ -76,7 +76,7 @@ export default {
     line-height: 1.1em;
     font-size: 15px;
     color: var(--secondary-white-color);
-    animation: fadeIn 2s forwards 4.3s;
+    animation: fadeIn 2s forwards 4s;
   }
   .btn {
     opacity: 0;

@@ -49,6 +49,15 @@ export default {
           github: "https://github.com/Oluwaseyi123/shortly",
           vid: require("../assets/images/portfolio/shortly.mp4"),
         },
+        {
+          name: "Space Tour",
+          desc: "A fun website about space and some info about europa, moon, mars and titan.",
+          src: require("../assets/images/portfolio/shortly.svg"),
+          tech: "HTML | CSS | VueJS",
+          website: "https://lets-tour-space.netlify.app",
+          github: "https://github.com/Oluwaseyi123/space-tourism",
+          vid: require("../assets/images/portfolio/spacetour.mp4"),
+        },
       ],
     };
   },

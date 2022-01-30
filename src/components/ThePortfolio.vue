@@ -101,7 +101,7 @@ hr.hr {
 }
 @media screen and (min-width: 765px) {
   .icons {
-    &:nth-of-type(2) {
+    &:nth-of-type(2),  &:nth-of-type(4){
       justify-content: flex-end;
       background: red;
     }
@@ -109,7 +109,7 @@ hr.hr {
   .portfolio-container {
     padding: 10px;
     display: flex;
-    &:nth-of-type(2) {
+    &:nth-of-type(2),  &:nth-of-type(4) {
       flex-direction: row-reverse;
       p,
       h1,
