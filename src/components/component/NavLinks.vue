@@ -9,7 +9,7 @@
         <ul >
           <li>
             <router-link to="/portfolio">Projects</router-link>
-            <a href="https://oluwaseyi.hashnode.dev/" target="_blank">Blog(coming soon) </a>
+            <a href="https://oluwaseyi.hashnode.dev/" target="_blank">Blog</a>
           </li>
         </ul>
       </nav>
