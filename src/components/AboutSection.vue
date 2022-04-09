@@ -7,11 +7,13 @@
       </div>
       <div class="about-text">
         <p>
-          Hi, I am Aimudo Oluwaseyi, a frontend engineer aimed at building
-          performant, accessible and aesthetically pleasing interfaces. I
-          started building user interfaces in 2020 and I have built a number of
-          projects(personal and professional) since then. You can find some of my personal projects <router-link to="/portfolio">here</router-link>. Here are some
-          of the technologies I use currently.
+          Hi, I am Aimudo Oluwaseyi, a Software engineer aimed at building
+          performant, accessible and aesthetically pleasing interfaces. I have
+          experience building small, medium and large scale interfaces. I am
+          also well versed in web design, web content management and Search
+          Engine Optimization(SEO). You can find some of my personal projects
+          <router-link to="/portfolio">here</router-link>. Here are some of the
+          technologies I use currently:
         </p>
         <div class="stack">
           <ul>
@@ -81,7 +83,7 @@ export default {};
     color: var(--secondary-white-color);
     font-weight: 300;
     margin: 0 auto 1em;
-    a{
+    a {
       color: var(--pink-color);
     }
   }
