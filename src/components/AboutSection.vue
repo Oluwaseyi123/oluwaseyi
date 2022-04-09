@@ -7,7 +7,7 @@
       </div>
       <div class="about-text">
         <p>
-          Hi, I am Aimudo Oluwaseyi, a Software engineer aimed at building
+          Hi, I am Aimudo Oluwaseyi, a freelance web designer and Frontend engineer aimed at building
           performant, accessible and aesthetically pleasing interfaces. I have
           experience building small, medium and large scale interfaces. I am
           also well versed in web design, web content management and Search
