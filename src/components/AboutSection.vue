@@ -21,6 +21,7 @@
               <li>HTML & (S)CSS</li>
               <li>Javascript</li>
               <li>TailwindCSS</li>
+              <li>Angular</li>
             </div>
             <div class="right">
               <li>VueJS</li>
