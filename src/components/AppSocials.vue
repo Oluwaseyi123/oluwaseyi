@@ -14,6 +14,9 @@
       <a href="mailto:oluwaseyi.tac@gmail.com" target="_blank"
         ><i><font-awesome-icon icon="envelope" /></i
       ></a>
+       <a href="https://codepen.io/oluwaseyigit" target="_blank"
+        ><i><font-awesome-icon :icon="['fab', 'codepen']" /></i
+      ></a>
     </div>
   </div>
 </template>

@@ -7,13 +7,14 @@ import TheHeader from './components/component/TheHeader.vue'
 import AppButton from './components/component/AppButton.vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope, faExternalLinkAlt} from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedinIn, faTwitter, faCodepen } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { dom } from '@fortawesome/fontawesome-svg-core'
 import vIntersect from "vue-intersect"
 library.add(faTwitter)
 library.add(faLinkedinIn)
 library.add(faEnvelope)
+library.add(faCodepen)
 library.add(faExternalLinkAlt)
 
 library.add(faGithub)

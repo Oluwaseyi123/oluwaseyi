@@ -1,8 +1,6 @@
 <template>
   <div class="home">
     <the-header />
-    
-  
     <div class="section">
       <section class="hero-section" >
         <hero-section />
@@ -12,10 +10,8 @@
         <Intersect @enter="inters(true)" @leave="inters(false)">
           <the-portfolios />
         </Intersect>
-        <!-- <the-portfolios /> -->
       </section>
       <section class="about-section intersect" id="about">
-        <!-- <about-section /> -->
           <Intersect @enter="inters(true)" @Leave="inters(false)">
           <about-section />
         </Intersect>
